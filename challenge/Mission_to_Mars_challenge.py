@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup as soup
 from webdriver_manager.chrome import ChromeDriverManager
 
 
+
 def scrape_all():
     # Initiate headless driver
     browser = Browser("chrome", executable_path="chromedriver", headless=True)
